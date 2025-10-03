@@ -1,0 +1,15 @@
+@media (max-width: 375px) {
+  .main-head,
+  .main-nav,
+  .side,
+  .ad,
+  .main-footer {
+    display: none;
+  }
+
+  .content {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    width: 100%;
+  }
+}
