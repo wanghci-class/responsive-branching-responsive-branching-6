@@ -1,0 +1,23 @@
+body.dark {
+  background-color: #1a1a2e;
+  color: #f0f0f0;            
+}
+
+body.light {
+  background-color: #fafafa; 
+  color: #222222;           
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a2e;
+    color: #f0f0f0;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fafafa;
+    color: #222222;
+  }
+}
